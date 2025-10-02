@@ -9,3 +9,6 @@ uv pip show boto3
 aws configure       
 deactivate
  aws cloudwatch list-metrics --namespace DatabaseMonitoring --region us-east-2
+
+ Your subscription's id is:
+arn:aws:sns:us-east-2:493643819495:db-temp-alerts:49fd6c75-d3b9-4dbb-9f86-327888d532f3
