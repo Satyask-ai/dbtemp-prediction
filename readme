@@ -1,0 +1,11 @@
+uv venv
+.\.venv/Scripts/activate.ps1
+uv pip install pandas
+uv pip list
+uv pip install plyer(notification library)
+uv run cloudwatch.py
+uv run plot_data.py
+uv pip show boto3
+aws configure       
+deactivate
+ aws cloudwatch list-metrics --namespace DatabaseMonitoring --region us-east-2
